@@ -71,7 +71,7 @@ mpirun -n 16 /share/apps/Ray/Ray-2.3.1/Ray -show-memory-usage -k 45 -amos -p /st
 
 - Find mitochondrial scaffolds
 
-[msjd](~/Desktop/Nitz4/papers/gene.fold.names.md)
+[msjd](https://github.com/Nastassiia/Nitz4_annot_paper/blob/master/gene.fold.names.md)
 
 
 ```
