@@ -114,6 +114,7 @@ mpirun -n 16 /share/apps/Ray/Ray-2.3.1/Ray -k a -amos -show-memory-usage -p /sto
 
 [Generate training gene-set for augustus](https://github.com/Nastassiia/Nitz4_annot_paper/blob/master/Phaeod.train.whole.Rmd)  
 [Check coding sequences for correct start codons](https://github.com/Nastassiia/Nitz4_annot_paper/blob/master/check_ATGs_correct.Rmd)
+
 [Generate training gene-set for augustus UTR-parameters training]
 
 
