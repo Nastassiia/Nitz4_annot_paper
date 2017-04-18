@@ -46,6 +46,8 @@ mpirun -n 16 /share/apps/Ray/Ray-2.3.1/Ray -k a -amos -p /storage/ao006/Nitz4_pr
 /storage/ao006/Nitz4_project/trimmomat_output/Nitz4_trimmed_rev.fq -o nitz4.ray.K45
 ```
 - R quality check
+Here will be the graphs for K-mer statistics
+
 
 - Get rid of plastid reads with bowtie2
 
@@ -72,7 +74,7 @@ mpirun -n 16 /share/apps/Ray/Ray-2.3.1/Ray -show-memory-usage -k 45 -amos -p /st
 - Find mitochondrial scaffolds
 
 
-Blast diatom mitochondrial genes from custom database to plastid free assembly
+Blast plastid free assembly to diatom mitochondrial genes from custom databases
 
 
 [R code to find mitochondrial scaffolds ](https://github.com/Nastassiia/Nitz4_annot_paper/blob/master/gene.fold.names.md)
@@ -99,7 +101,7 @@ Blast diatom mitochondrial genes from custom database to plastid free assembly
 
 ```
 # a є {21,27,33,39,45,51,57,63}
-mpirun -n 16 /share/apps/Ray/Ray-2.3.1/Ray -k 45 -amos -show-memory-usage -p /storage/ao006/Nitz4_project/bowt.get.rid.mito.reads/nitz4_cont4.15_aln/Nitz4_no_organel_1.fq \
+mpirun -n 16 /share/apps/Ray/Ray-2.3.1/Ray -k a -amos -show-memory-usage -p /storage/ao006/Nitz4_project/bowt.get.rid.mito.reads/nitz4_cont4.15_aln/Nitz4_no_organel_1.fq \
 /storage/ao006/Nitz4_project/bowt.get.rid.mito.reads/nitz4_cont4.15_aln/Nitz4_no_organel_2.fq  -o nitz4.no.org.K45
 
 ```
@@ -112,6 +114,7 @@ mpirun -n 16 /share/apps/Ray/Ray-2.3.1/Ray -k 45 -amos -show-memory-usage -p /st
 
 [Generate training gene-set for augustus](https://github.com/Nastassiia/Nitz4_annot_paper/blob/master/Phaeod.train.whole.Rmd)  
 [Check coding sequences for correct start codons](https://github.com/Nastassiia/Nitz4_annot_paper/blob/master/check_ATGs_correct.Rmd)
+[Generate training gene-set for augustus UTR-parameters training]
 
 
 #### Annotation of Nitzschia4 nuclear genome with MAKER
