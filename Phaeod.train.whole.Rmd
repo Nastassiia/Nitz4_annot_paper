@@ -223,7 +223,7 @@ export.gff3(utr.training.table, 'train_/exec.utr.cds.train.1.gff')
 ```
 
 
-# gff2gbSmallDNA.pl exec.utr.cds.train.1.gff ../../raw_data/Ph.tricorn.short.names_genomic.fna 1000 exec.utr.cds.train.1.gb
+
 
 
 
