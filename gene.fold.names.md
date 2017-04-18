@@ -4,7 +4,7 @@ output: html_document
 data: "23 Nov 2016"
 ---
 
-```{r setup, include=FALSE}
+```{r}
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
@@ -24,6 +24,7 @@ write(gene.list, file='gene.fold.short.nam.txt', ncolumns = 61)
 ```
 
 
+Write code for blasting Nitz4 scaffolds against mitochondrial gene databases
 ```{r}
 /share/apps/blast/ncbi-blast-2.3.0+/bin/makeblastdb -in /storage/ao006/Nitz4_project/raw_data/mito.gene.groups/'genenme'.fasta \
 -dbtype nucl  -out /'genenme'/atp6.all.db -title paste0('Nitz4.db', 'genenme')
