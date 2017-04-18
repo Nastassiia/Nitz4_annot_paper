@@ -110,7 +110,8 @@ mpirun -n 16 /share/apps/Ray/Ray-2.3.1/Ray -k 45 -amos -show-memory-usage -p /st
 
 #### Generate Phaeodactylum tricornutum chosen gene-set for retraining augustus gene-prediction parameters
 
-[Generate training gene set for augustus]()
+[Generate training gene-set for augustus](https://github.com/Nastassiia/Nitz4_annot_paper/blob/master/Phaeod.train.whole.md)  
+[Check coding sequences for correct start codons]()
 
 
 #### Annotation of Nitzschia4 nuclear genome with MAKER
