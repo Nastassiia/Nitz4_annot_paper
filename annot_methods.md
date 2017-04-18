@@ -104,4 +104,13 @@ mpirun -n 16 /share/apps/Ray/Ray-2.3.1/Ray -k 45 -amos -show-memory-usage -p /st
 
 ```
 
-- Identification of non-target genomes
+#### Identification of non-target genomes with blobplots
+
+[Blobplots for whole, plastid-free and organelle-free reads scaffolds](https://github.com/Nastassiia/Nitz4_annot_paper/blob/master/make_blobloplots.md)
+
+#### Generate Phaeodactylum tricornutum chosen gene-set for retraining augustus gene-prediction parameters
+
+[Generate training gene set for augustus]()
+
+
+#### Annotation of Nitzschia4 nuclear genome with MAKER
